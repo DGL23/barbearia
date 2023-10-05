@@ -22,17 +22,17 @@ header  {
 
 nav  {
       width:  100%;
-      display: .flex;
+      display: flex;
       align-items:   center;
 }
 
 nav li  {
-      display: .flex;
-      align-items: .center;
+      display: flex;
+      align-items: center;
 }
 
 nav li  {
-      display: .inline;
+      display: inline;
       margin: 0 0 0 15px;
 }
 
@@ -41,6 +41,14 @@ nav a {
   color: #000000;
   font-weight: bold;
   font-size: 22px;
-  text-decoration; none;
+  text-decoration: none;
 }
 
+.container {
+   width: 940px;
+   margin: auto;
+}
+
+header div.container {
+   display:flex;
+}
